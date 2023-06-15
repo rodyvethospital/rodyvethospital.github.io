@@ -1,0 +1,481 @@
+
+
+#back{
+ 
+}
+div.mainWrap{
+  
+   height: 100em;
+   max-height: 100em;
+   width: 100%;
+   max-width: 100%;
+   background-color: rgb(238, 238, 195);
+   
+}
+
+
+section.headerW{  
+   
+   width: 100%; 
+   max-width: 100%;  
+   height:7.5em;
+   max-height: 7.5em;
+   background-color: rgb(116, 42, 100);
+   
+}
+
+
+p.tabContHead  {
+  
+   font-size: 250%;
+   color: rgb(255, 255, 255);
+   padding-left: 1em;
+  
+   
+}
+
+ul#navlist{ 
+   text-align: center;
+   list-style-type: none;
+   }
+
+
+
+ul#navlist li{
+   display:inline;
+   padding-right: 4em;
+
+
+}
+
+
+ul#navlist li a{ 
+   display: inline;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   font-size: 1.2em;
+
+}
+
+ul li a:hover{
+   background-color: rgb(91, 4, 161);
+   color: black;
+}
+
+figure.home1stPicFig{
+   height:"500px"; 
+   width:"520px";
+
+}
+
+img{
+   max-width: 620px;
+   min-width: 320px;
+   float: left;
+   padding-top: 2em;
+}
+
+figcaption.home1stPicCap{
+   font-size: large; 
+   color: grey;
+   font-family: Arial, Helvetica, sans-serif;
+   clear:left;
+}
+
+
+div.textualQuote{
+
+   height:850px; 
+   width:550px;
+   float: right;
+   
+
+}
+
+.firstHead{
+ font-size:2em;
+ border-bottom: 2px solid black;
+ width: 90%;
+ margin-left: 1em;
+ 
+}
+
+div.dogQuote{
+   height: 850px; 
+   width: 500px;
+}
+
+p.parDogQuote1{
+   font-size: 1.5em;
+   text-align: justify;
+}
+
+p.parDogQuote2{
+   font-size: 1.5em;
+   text-align: justify;
+}
+
+div.secondSect{
+   width: 100%;
+   height: 30%;
+   float: left;
+   margin-top: -28%;
+}
+
+h1.dogRespHead{
+   text-align: center;
+   font-size: 3em;
+   color: aliceblue;
+   background-color: black;
+   border-radius: 2em;
+   width: 95%;
+   margin-left:1em;
+}
+
+div.reqSect{
+   width: 90%;
+   background-color: azure;
+   margin-left: 2em;
+   border-radius: 1em;
+   font-size: 1.5em;
+}
+
+p.reqPar{
+   padding: 1em 2em 2em 2em;
+   
+}
+
+div.listRepSect{
+   font-size: 1.5em;
+   padding: 0.5em 0.5em 0.5em 0.5em;
+   background-color: rgb(188, 250, 208);
+   width: 50%;
+   margin: -2em 0em 0em 5em;
+}
+
+div.lastQuote{
+   float: left;
+   font-size: 2.5em;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   width: 80%;
+   margin-left: 3em;
+   text-align: justify;
+   padding-top: 2em;
+
+}
+
+.myFooter{
+   width: 100%;
+   height:7.5em;
+   max-height: 7.5em;
+   background-color: rgb(116, 42, 100);
+   float: left;
+   margin-top: 2em;
+}
+
+div.des{
+   font-size: 3em;
+   color: aliceblue;
+   float: left;
+   padding: 0em 2em 3em 2em;
+}
+
+div.actPart{
+   font-size: 2em;
+   float: left;
+   margin-left: 15em;
+}
+
+div.actPart a{
+   color: aliceblue;
+}
+div.actPart a:hover{
+   color: rgb(2, 5, 7);
+
+}
+
+/* TABLE OF CONTENTS STYLE*/
+
+h1.fstHead{
+   color: rgb(0, 0, 0);
+   font-size: 3em;
+   margin-left: 1em;
+   font-weight: 900;
+   border-bottom: 2px solid black;
+   width: 90%; 
+}
+
+
+
+/*REGISTER FORM STYLE*/
+
+div.mainWrapReg{
+   height: 75em;
+   max-height: 100em;
+   width: 100%;
+   max-width: 100%;
+   background-color: rgb(238, 238, 195);
+}
+
+
+
+h1.firstHeadReg{
+   color: rgb(0, 0, 0);
+   font-size: 3em;
+   margin-left: 5em;
+   font-weight: 900;
+   border-bottom: 2px solid black;
+   width: 60%; 
+   margin-top: 1em;
+
+}
+fieldset.fieldContact{
+   width: 60%;
+   margin-left: 15em;
+   margin-top: 4em;
+   float: left;
+
+}
+label.contact {
+   width: 80px;
+   float: left;
+   text-align: right;
+   margin-right: 10px;
+  }
+
+
+legend.legendReg1{
+
+   font-size: 3em;
+}
+
+
+label.firstLabel {
+   margin-left: 10px;
+   text-align: right;
+   font-size: 1.5em;
+}
+
+
+.secondLabel {
+
+   margin-left: 10px;
+   text-align: right;
+   font-size: 1.5em;
+}
+
+.thirdLabel {
+   margin-left: 10px;
+   text-align: right;
+   font-size: 1.5em;
+}
+
+
+fieldset.fieldComment{
+   width: 60%;
+   margin: 3em 0em 3em 15em;
+   float: left;
+   margin-top: 4em;
+}
+
+legend.legendReg2{
+   font-size: 3em;
+}
+div.buttons{
+   clear: left;
+   margin-left: 15em;
+}
+
+.myFooterReg{
+   width: 100%;
+   height:7.5em;
+   max-height: 7.5em;
+   background-color: rgb(116, 42, 100);
+   float: left;
+   margin-top: 9em;
+}
+
+/*MEDICATION WEB PAGE STYLE*/
+
+div.mainWrapMed{
+   height: 75em;
+   max-height: 100em;
+   width: 100%;
+   max-width: 100%;
+   background-color: rgb(238, 238, 195);
+}
+p.parDogQuote3{
+   font-size: 1.5em;
+   text-align: justify;
+}
+
+#med1{
+   font-weight: bolder;
+   font-size: 1em;
+}
+
+#med2ned{
+   font-weight: bolder;
+   font-size: 1em;
+}
+
+#med3{
+   font-weight: bolder;
+   font-size: 1em;
+}
+h1.dogRespHeadMed{
+   font-size: 1.5em;
+   color: aliceblue;
+   background-color: black;
+   padding: 2em;
+   text-align: justify;
+   float: left ;
+   margin-top: -8em;
+}
+
+.myFooterMed{
+   width: 100%;
+   height:7.5em;
+   max-height: 7.5em;
+   background-color: rgb(116, 42, 100);
+   float: left;
+   margin-top: 9em;
+}
+/*HEALTH TREATMENT STYLE*/
+div.mainWrapHealth{
+   height: 85em;
+   max-height: 100em;
+   width: 100%;
+   max-width: 100%;
+   background-color: rgb(238, 238, 195);
+}
+
+h1.dogRespHeadhealth{
+   font-size: 1.5em;
+   color: aliceblue;
+   background-color: rgb(116, 15, 15);
+   padding: 2em;
+   text-align: justify;
+   float: left ;
+   margin-top: -3em;
+   }
+ 
+/*Pet statistics style*/
+
+table{
+   font-size: 2em;
+   margin-left: 6em;
+   margin-top: 2em;
+   border-collapse: collapse;
+}
+
+caption{
+   font-size: 1.7em;
+   padding-bottom: 0.5em;
+   width: auto;
+   border: 2px solid black;
+   background-color:aquamarine;
+}
+
+th, td {border: solid 1px black;}
+
+p.aknowledgement{
+   font-size: 2em;
+   background-color:aquamarine ;
+   border-radius: 1em;
+   color: black;
+   width: 60%;
+   text-align: justify;
+   padding: 1em;
+   margin-left: 6em;
+   margin-top: 2em;
+}
+
+.myFooterStats{
+   width: 100%;
+   height:7.5em;
+   max-height: 7.5em;
+   background-color: rgb(116, 42, 100);
+   float: left;
+   margin-top: 2em;
+}
+
+div.mainWrapStats{
+   height: 61em;
+   max-height: 100em;
+   width: 100%;
+   max-width: 100%;
+   background-color: rgb(238, 238, 195);
+}
+
+/*About Us style*/
+h1{
+   font-size: 3.5em;
+   margin-left:5.5em;
+}
+
+p.objective{
+   font-size: 2em;
+   margin: 1em 3em 2em 3em;
+   text-align: justify;
+   background-color: aquamarine;
+   border-radius: 1em;
+   padding: 0.5em;
+}
+
+h2{
+   font-size: 3em;
+   margin-left: 3.5em;
+
+}
+
+ul.contactInfo{
+   font-size: 2em;
+   margin-left: 5em;
+}
+
+
+div.mainWrapAboutus{
+   height: 65em;
+   max-height: 100em;
+   width: 100%;
+   max-width: 100%;
+   background-color: rgb(238, 238, 195);
+}
+
+div.myFooterAboutUs{
+   width: 100%;
+   height:7.5em;
+   max-height: 7.5em;
+   background-color: rgb(116, 42, 100);
+   float: left;
+   margin-top: 6.2em;
+
+}
+
+/* Forum style rules*/
+div.mainWrapForum{
+   height: 72em;
+   max-height: 100em;
+   width: 100%;
+   max-width: 100%;
+   background-color: rgb(238, 238, 195);
+}
+
+div.myFooterForum{
+   width: 100%;
+   height:7.5em;
+   max-height: 7.5em;
+   background-color: rgb(116, 42, 100);
+   float: left;
+   margin-top: 6.2em;
+}
+
+p.community{
+   font-size: 2em;
+   margin: 1em 3em 2em 3em;
+   text-align: justify;
+   background-color: aquamarine;
+   border-radius: 1em;
+   padding: 0.5em;
+}
